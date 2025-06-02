@@ -67,8 +67,6 @@ Two composite indexes are required:
 
 ```
 gcloud firestore indexes composite create --collection-group=tx --field-config=field-path=merchantId,order=ascending --field-config=field-path=date,order=descending
-
-
 gcloud firestore indexes composite create --collection-group=errors --field-config=field-path=merchantId,order=ascending --field-config=field-path=date,order=descending
 ```
 
@@ -84,8 +82,6 @@ The next step is registering an Android App. Click in the Android logo
 Select “com.example.pos” for package name, and “Point Of Sale” as nickname. Then click “Register App”
 
 In the next screen, click “Download google-services.json”. Save the file.
-
-*Checkpoint*: 
 
 ![Checkpoint](img/add_firebase.jpg?raw=true)
 
@@ -105,7 +101,7 @@ user3@mycompany.com
 
 Save the chosen password.
 
-*Checkpoint*: 
+<img src="img/authentication.jpg?raw=true" width="200"/>
 
 ![Checkpoint](img/authentication.jpg?raw=true)
 
