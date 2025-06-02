@@ -101,8 +101,6 @@ user3@mycompany.com
 
 Save the chosen password.
 
-<img src="img/authentication.jpg?raw=true" width="200"/>
-
 ![Checkpoint](img/authentication.jpg?raw=true)
 
 ## Set security rules on Firestore
@@ -132,7 +130,7 @@ Click “Run App”. The emulator starts and loads the app. [Note: you may need 
 
 *Checkpoint*: 
 
-![Checkpoint](img/client.jpg?raw=true)
+<img src="img/client.jpg?raw=true" width="300"/>
 
 # Contributing
 Pull requests are welcome. 
